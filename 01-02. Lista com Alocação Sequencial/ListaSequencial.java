@@ -20,7 +20,7 @@ public class ListaSequencial
         try (Scanner sc = new Scanner(System.in)) {
             String input;
 
-            // Adiciona os Pokémon selecionados aos `selecionados`.
+            // Adiciona os Pokémon selecionados à lista.
             while (!(input = sc.nextLine()).equals("FIM"))
                 lista.inserirFim(pokemon.get(Integer.parseInt(input) - 1));
 
@@ -55,9 +55,8 @@ public class ListaSequencial
         }
 
         // Imprime a lista resultante.
-        for (int i = 0; i < lista.size(); ++i) {
+        for (int i = 0; i < lista.size(); ++i)
             System.out.println("[" + i + "] " + lista.get(i));
-        }
     }
 }
 
