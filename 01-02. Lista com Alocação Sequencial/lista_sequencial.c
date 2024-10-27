@@ -634,7 +634,6 @@ int main(int argc, char **argv)
 				scanf("%d", &pos);
 
 			scanf("%d", &idx); // Lê o ID do Pokémon.
-			// fprintf(stdout, "%s %d %d\t", cmd, pos, idx);
 			--idx; // Decrementa para encontrar índice.
 
 			// Determina qual método invocar.
@@ -650,8 +649,6 @@ int main(int argc, char **argv)
 			// Lê posição a remover.
 			if (cmd[1] == '*')
 				scanf("%d", &pos);
-
-			// fprintf(stdout, "%s %d\t", cmd, pos);
 
 			// Determina qual método invocar.
 			if (cmd[1] == 'I')
