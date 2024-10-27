@@ -644,7 +644,7 @@ int main(int argc, char **argv)
 				inserir(lista, pokemon[idx], pos);
 			else
 				inserir_fim(lista, pokemon[idx]);
-		} else {
+		} else if (cmd[0] == 'R') {
 			Pokemon *temp; // Pokémon removido.
 
 			// Lê posição a remover.
