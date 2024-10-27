@@ -1,5 +1,6 @@
+CBIN      := ./lista_sequencial
 JAVACLASS := ListaSequencial
 
 include ../config.mk
 
-test: testjava
+test: testc testjava
