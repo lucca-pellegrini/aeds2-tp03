@@ -1,6 +1,6 @@
-# Trabalho Prático 2 (Em Progresso)
+# Trabalho Prático 3 (Em Progresso)
 
-Aqui se encontrará o segundo trabalho prático de Algoritmos e Estruturas de
+Aqui se encontrará o terceiro trabalho prático de Algoritmos e Estruturas de
 Dados 2 (1610100) de 2024/2 (quando eu terminar).
 
 ## Resultados
